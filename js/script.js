@@ -59,10 +59,12 @@ function acesso(){
     emailLg.value == 'jvc' && senhaLg.value == 'jvc' || emailLg.value == 'erika' && senhaLg.value == 'erika' || 
     emailLg.value == 'laura' && senhaLg.value == 'laura'){
         return window.location.href='https://analisadornumber.netlify.app'
+   
     }
     else{
-        return window.alert('Acesso Negado');
+        emaiLg.value = ''
+        senhaLg.value = ''
+        window.alert('Acesso negado')
     }
-   emaiLg.value = ''
-   senhaLg.value = ''
+    
 }
