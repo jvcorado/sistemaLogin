@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark d-flex flex-column justify-content-center align-items-center">
+    <div class="card w-50">
+        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+            <h5 class="card-title ">Criar conta</h5>
+            <div class="mb-3">
+                <label for="emailCadastro" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailCadastro" placeholder="name@example.com">
+              </div>
+              <div class="col-auto">
+                <label for="senhaCadastro" class="form-label">Password</label>
+                <input type="password" class="form-control" id="senhaCadastro" placeholder="Password">
+              </div>
+              <div class="col-auto mt-4">
+                <button type="submit" class="btn btn-primary mb-3" onclick="cadastro()">Cadastrar</button>
+              </div>
+
+              <h5 class="card-title ">Login</h5>
+            <div class="mb-3">
+                <label for="emailLogin" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailLogin" placeholder="name@example.com">
+              </div>
+              <div class="col-auto">
+                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                <label for="senhaLogin" class="visually-hidden">Password</label>
+                <input type="password" class="form-control" id="senhaLogin" placeholder="Password">
+              </div>
+              <div class="col-auto mt-4">
+                <button type="submit" class="btn btn-primary mb-3" onclick="acesso()">Entrar</button>
+              </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
