@@ -55,6 +55,7 @@ function cadastro(){
 }
 
 function acesso(){
+
     if(emailLg.value == 'admin' && senhaLg.value == 'admin' ||
     emailLg.value == 'jvc' && senhaLg.value == 'jvc' || emailLg.value == 'erika' && senhaLg.value == 'erika' || 
     emailLg.value == 'laura' && senhaLg.value == 'laura'){
@@ -62,9 +63,9 @@ function acesso(){
    
     }
     else{
-        emaiLg.value = ''
-        senhaLg.value = ''
+       
         window.alert('Acesso negado')
     }
-    
+    emaiLg.value = ''
+    senhaLg.value = ''
 }
