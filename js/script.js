@@ -66,6 +66,6 @@ function acesso(){
        
         window.alert('Acesso negado')
     }
-    emaiLg.value = ''
+    emailLg.value = ''
     senhaLg.value = ''
 }
